@@ -4,8 +4,8 @@ The goal of this project should be to create a single HTML page (index.html) tha
 There is a products.json file that contains data from 10 products that should be output on the collection page.
 There are images for the navigation icons, logo, and products.
 
-You can visit the actual DSW.com collection page here to look at hover and state behaviors:
-<a href="https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0" target="_blank"/>
+You can visit the <a href="https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0" target="_blank">actual DSW.com collection page</a> to look at hover and state behaviors.
+
 
 <h2>Submission Instructions</h2>
 <ol>
