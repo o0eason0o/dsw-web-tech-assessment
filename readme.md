@@ -5,10 +5,11 @@ There is a products.json file that contains data from 10 products that should be
 There are images for the navigation icons, logo, and products.
 
 You can visit the actual DSW.com collection page here to look at hover and state behaviors:
-https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0
+<a href="https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0" target="_blank"/>
 
 <h2>Submission Instructions</h2>
 <ol>
+  <li>Respond back to email with GitHub ID.</li>
   <li>Create a new branch (assessment/{lastname-firstname} and commit to origin.</li>
   <li>Create a PR from above branch to master.</li>
 </ol>
@@ -17,7 +18,7 @@ https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0
 <div>
   <h3>Mobile</h3>
   <p>For DSW, this view goes to 767px</p>
-  <p><img src="collection-page-mobile.png" width="200"/></p>
+  <p><img src="collection-page-mobile.png" width="200" /></p>
 </div>
 <div>
     <h3>Desktop</h3>
