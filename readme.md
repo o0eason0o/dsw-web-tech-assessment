@@ -16,6 +16,7 @@ https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0
 <h2>Layouts to Implement</h2>
 <div>
   <h3>Mobile</h3>
+  <p>For DSW, this view goes to 767px</p>
   <p><img src="collection-page-mobile.png" width="200"/></p>
 </div>
 <div>
