@@ -13,12 +13,13 @@ https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0
   <li>Create a PR from above branch to master.</li>
 </ol>
 
+<h2>Layouts to Implement</h2>
 <div>
-  <h2>Mobile Layout</h2>
+  <h3>Mobile</h3>
   <p><img src="collection-page-mobile.png" width="200"/></p>
 </div>
 <div>
-    <h2>Desktop Layout</h2>
+    <h3>Desktop</h3>
    <p><img src="collection-page-desktop.png" width="500"/></p>
 </div>
 
