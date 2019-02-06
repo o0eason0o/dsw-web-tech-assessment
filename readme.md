@@ -1,9 +1,9 @@
 # DSW Interview Assessment Project
 The goal of this project should be to create a single HTML page (index.html) that resembles the simplified DSW collection pages below as best you can.
 
-[mobile]: collection-page-mobile.png “Mobile Collection Page“
+[mobile]: ./collection-page-mobile.png “Mobile Collection Page“
 
-[desktop]: collection-page-desktop.png “Desktop Collection Page”
+[desktop]: ./collection-page-desktop.png “Desktop Collection Page”
 
 You can visit the actual DSW.com collection page here to look at hover and state behaviors:
 https://www.dsw.com/en/us/category/mens-oxfords/N-1z141hwZ1z128urZ1z141ju?No=0
