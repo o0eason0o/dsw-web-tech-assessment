@@ -1,7 +1,7 @@
 # DSW Interview Assessment Project
 The goal of this project should be to create a single HTML page (index.html) that resembles the simplified DSW collection pages below as best you can.
 
-<h2>Notes</h2>
+<h2>Guidelines</h2>
 <ul>
   <li>There is a products.json file that contains data from 10 products that should be output on the collection page.</li>
   <li>There are images for the navigation icons, logo, and products.</li>
