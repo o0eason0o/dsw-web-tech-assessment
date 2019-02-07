@@ -1,5 +1,5 @@
 # DSW Interview Assessment Project
-The goal of this project should be to create a single HTML page (index.html) that resembles the simplified DSW collection pages below as best you can.
+The goal of this project should be to create a single HTML page (index.html) that resembles the simplified DSW collection page concepts below as best you can.  You can choose to code a static or dynamic page.
 
 <h2>Guidelines</h2>
 <ul>
