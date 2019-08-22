@@ -1,0 +1,22 @@
+<div class="main">
+    <ads></ads>
+    <div class="main_topBar">
+        <pages></pages>
+        <filter></filter>
+    </div>
+    <div class="main_products" >
+    	<div *ngFor="let product of products">
+    		<productBox [product] = "product"></productBox>
+    	</div>
+    </div>
+    <div class="main_sticky">
+        <div class="sideBar">
+            <div class="sideBar_icon sideBar_icon_top">&#x2227;</div>
+            <div>TOP</div>
+        </div>
+        <div class="sideBar">
+            <div class="sideBar_icon sideBar_icon_filter">&#x25BC;</div>
+            <div>FILTER</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.box {
+    border-bottom: 1px solid #bcbcbc;
+    padding: 10px 50px;
+    text-align: center;
+
+    @media (max-width: 767px){
+        padding: 5px 20px;
+    }   
+
+    &_text
+    {
+        font-family: sans-serif;
+        line-height: 32px;
+        font-size: 12px;
+    }
+}
+
+    

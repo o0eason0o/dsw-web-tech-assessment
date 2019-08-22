@@ -1,0 +1,27 @@
+<div class="product">
+    <div class="product_image">
+        <img [src]="'/assets/images/products/' + product.id + '.jpg'">
+    </div>
+    <div class="product_brand">
+        {{product.brand}}
+    </div>
+    <div class="product_name">
+        {{product.name}}
+    </div>
+    <div class="product_price">
+        ${{product.price}}
+    </div>
+    <div class="product_compValue" *ngIf="product.compValue">
+        Comp. value ${{product.compValue}}
+    </div>
+    <div class="rating" *ngIf="product.rating">
+        <div class="rating_star" *ngFor="let star of [0,1,2,3,4]" 
+        [ngClass]="getStarClass(star)"></div>
+        <div class="rating_count">({{reviews}})</div>
+    </div>
+    <div *ngIf="product.colors.length > 1">
+        <div class="circle" *ngFor="let color of product.colors" [ngClass]="[product.activeColor === color.id ? 'circle_selected': '', true ? 'circle_' + color.displayName: '']">
+            <div></div>
+        </div>
+    </div>
+</div>

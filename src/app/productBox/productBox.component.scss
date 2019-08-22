@@ -1,0 +1,160 @@
+.product {
+    border: 1px solid #bcbcbc;
+    box-sizing: border-box;
+    height: 390px;
+    float:left;
+    line-height: 26px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+    &_image {
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    &_brand {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    &_name {
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    &_price {
+        font-size: 8px;
+        font-weight: 700;
+    }
+
+    &_compValue {
+        color: #555;
+        font-size: 14px;
+        letter-spacing: 1px;
+    	text-transform: none;
+    }
+}
+.circle {
+    border-radius: 50%;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 22px;
+    margin: 5px 5px 5px 0;
+    width: 22px;
+
+    > *:first-child {
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+    }
+
+    &_selected {
+        border: 1px solid black;
+        padding: 2px;
+    }
+
+    &_brown {
+        > *:first-child {
+            background-color: #a5492a;
+        }
+    }
+
+    &_black {
+        > *:first-child { 
+            background-color: black;
+        }
+    }
+
+    &_gray {
+        > *:first-child { 
+            background-color: gray;
+        }
+    }
+
+    &_blue {
+        > *:first-child { 
+            background-color: #000076;
+        }
+    }
+}
+
+.rating {
+	margin: auto 0;
+
+    &_star {
+        border-right: 6px solid;
+        border-right-color: transparent !important;
+        border-bottom: 3.5px solid;
+        border-left: 5px solid;
+        border-left-color: transparent !important;
+        border-color: #ccc;
+        display: inline-block;
+        height: 0px;
+        position: relative;
+        transform: rotate(35deg);
+        width: 0px;
+        zoom: 1.5;
+        
+        &:before {
+            border-bottom: 4px solid;
+            border-left: 1.5px solid;
+            border-left-color: transparent !important;
+            border-right: 1.5px solid;
+            border-right-color: transparent !important;
+            border-color: #ccc;
+            content: '';
+            display: block;
+            left: -3.25px;
+            position: absolute;
+            top: -3.25px;
+            transform: rotate(-35deg);
+            width: 0;
+        }
+        &:after {
+            border-right: 6px solid;
+            border-right-color: transparent !important;
+            border-bottom: 3.5px solid;
+            border-left: 5px solid;
+            border-left-color: transparent !important;
+            border-color: #ccc;
+            content: '';
+            display: inline-block;
+            height: 0px;
+            left: -5.25px;
+            position: absolute;
+            top: 0.5px;
+            transform: rotate(-70deg);
+            width: 0px;
+        }
+
+         &_full {
+            border-color: #eaa844;
+            &:after {
+                border-color: #eaa844;
+            }
+            &:before {
+                border-color: #eaa844;
+            }
+        }
+
+        &_half {
+            border-color: #eaa844;
+            &:after {
+                border-color: #eaa844;
+            }
+            &:before {
+                border-color: #eaa844;
+            }
+        }
+    }
+
+    &_count {
+    	font-size: 8px;
+        display: inline-block;
+        margin: 5px 10px;
+    }
+}

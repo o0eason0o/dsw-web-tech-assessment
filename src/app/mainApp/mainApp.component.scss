@@ -1,0 +1,63 @@
+.main {
+    &_topBar {
+        display: flex;
+        justify-content: space-between;     
+        height: 110px;
+
+        @media (max-width: 767px){
+            flex-direction: column;
+            height: 350px;
+        }   
+    }
+
+    &_products {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+        > * {
+            max-width: 20%;
+            @media (max-width: 767px){
+                max-width: 50%;
+            }
+        }
+    }
+    &_sticky{
+        background-color: white;
+        bottom: 0;
+        box-shadow: -1px -1px 3px rgba(0, 0, 0, 25%);
+        position: fixed;
+        right: 0;
+
+    }
+}
+
+.sideBar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 200;
+    
+    &:first-child {
+        border-bottom: 1px solid #bcbcbc;
+    }
+
+    &_icon{
+        height: 25px;
+        width: 25px;
+        text-align: center;
+
+        &_top{
+            margin-top: -5px;
+            height: 30px;
+            font-size:30px;
+        }
+        &_filter{
+            margin-top: 5px;
+        }
+    }
+}

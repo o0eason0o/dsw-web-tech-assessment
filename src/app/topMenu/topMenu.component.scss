@@ -1,0 +1,161 @@
+.header {
+    box-shadow: 0px 3px 3px 0px #bcbcbc;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+
+    @media (max-width: 767px){
+        height: 40px;
+        justify-content: space-between;
+        padding-bottom: 25px;
+    }
+
+    &_logo {
+        img {
+            margin: 20px 0 0 15px;
+            width: 100px;
+            @media (max-width: 767px){
+                width: 100px;
+                margin: 10px 0 0 5px;
+            }
+        }
+
+        @media (max-width: 767px){
+            order: 3;
+            width: 105px;
+        }
+        @media (min-width: 768px){
+            flex-grow: 1;
+        }
+    }
+
+    &_iconContainer {
+        align-items: stretch;
+        display: flex;
+
+        &_search{
+            @media (max-width: 767px){
+                order: 2;
+            }
+        }
+
+        &_account{
+            @media (max-width: 767px){
+                order: 4;
+            }
+        }
+
+        &_bag{
+            @media (max-width: 767px){
+                order: 5;
+            }
+        }
+
+        &_store{
+            @media (max-width: 767px){
+                display: none;
+            }
+        }
+    }
+
+    &_icon {
+        background-size: cover;
+        margin: 10px 0;
+        height: 60px;
+        width: 65px;
+
+        @media (max-width: 767px){
+            width: 70px;
+            margin-top: -10px;
+        }
+
+        &_account{
+            background-image: url('/assets/images/account.gif');
+        }
+
+        &_bag{
+            background-image: url('/assets/images/bag.gif');
+        }
+
+        &_search{
+            background-image: url('/assets/images/search.gif');
+        }
+
+        &_store{
+            background-image: url('/assets/images/store.gif');
+        }
+
+        &:hover {
+            border-bottom: 3px solid black;
+            margin-bottom: -9px;
+        }
+    }
+
+    &_menu {
+        @media (max-width: 767px){
+            order: 1;
+        }
+
+        @media (min-width: 768px){
+            flex-basis: 100%;
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+
+.menu {
+    @media (max-width: 767px){
+        align-items: stretch;
+        display: flex;
+    }
+
+    &_icon{
+        @media (max-width: 767px){
+            background-image: url('/assets/images/threelines.png');
+            background-size: cover;
+            height: auto;
+            margin: -5px 0;
+            width: 50px;
+        }
+    }
+
+    &_hamburger_box{
+        display: none;
+        color: #393939;
+        @media (max-width: 767px){
+            font-size: 35px;
+            display: inline;
+            height: auto;
+            margin: -5px 0;
+            width: 35px;
+        }
+
+        &_text{
+            font-size: xx-small;
+            float:left;
+        }
+    }
+
+    &_tab {
+        padding: 15px;
+        font-family: Arial;
+        font-size: 10px;
+        font-weight: 500;
+
+        a {
+            color: #000;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: 3px solid black;
+                padding-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 767px){
+            display: none;
+        }
+    }
+}
